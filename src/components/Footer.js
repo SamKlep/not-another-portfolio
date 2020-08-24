@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollUp from "./ScrollUp";
 
 const Footer = () => {
   return (
@@ -10,6 +11,7 @@ const Footer = () => {
             <a href='https://github.com/samklep'> Samuel Klepper</a>
           </p>
         </div>
+        <ScrollUp />
       </footer>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectBreadcrumb from "../components/ProjectBreadcrumb";
 
-const ProjectOne = () => {
+const ProjectThree = () => {
   return (
     <div>
       <ProjectBreadcrumb />
@@ -9,8 +9,8 @@ const ProjectOne = () => {
         <section class='hero is-medium is-primary is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Project One</h1>
-              <h2 class='subtitle'>Sub-title</h2>
+              <h1 class='title'>Project Three</h1>
+              <h2 class='subtitle'>sub-subtitle</h2>
 
               <figure class='image is-5by3'>
                 <img src='https://bulma.io/images/placeholders/256x256.png ' />
@@ -93,4 +93,4 @@ const ProjectOne = () => {
   );
 };
 
-export default ProjectOne;
+export default ProjectThree;

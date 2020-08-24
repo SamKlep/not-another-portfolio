@@ -1,12 +1,12 @@
 import React from "react";
 import Projects from "../components/Projects";
-import ProjectsCards from "../components/ProjectsCards";
+import ProjectOne from "./ProjectOne";
 
 const ProjectsPg = () => {
   return (
     <div>
       <Projects />
-      <ProjectsCards />
+      <ProjectOne />
     </div>
   );
 };

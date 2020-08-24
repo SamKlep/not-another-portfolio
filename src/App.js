@@ -13,6 +13,11 @@ import Home from "./Pages/Home";
 import AboutPg from "./Pages/About";
 import ProjectsPg from "./Pages/Projects";
 import ProjectOne from "./Pages/ProjectOne";
+import ProjectTwo from "./Pages/ProjectTwo";
+import ProjectThree from "./Pages/ProjectThree";
+import ProjectFour from "./Pages/ProjectFour";
+import ProjectFive from "./Pages/ProjectFive";
+import ProjectSix from "./Pages/ProjectSix";
 
 function App() {
   return (
@@ -24,6 +29,11 @@ function App() {
         <Route path='/skills' component={SkillsPg} />
         <Route path='/projects' component={ProjectsPg} />
         <Route path='/projectone' component={ProjectOne} />
+        <Route path='/projecttwo' component={ProjectTwo} />
+        <Route path='/projecthree' component={ProjectThree} />
+        <Route path='/projectfour' component={ProjectFour} />
+        <Route path='/projectfive' component={ProjectFive} />
+        <Route path='/projectsix' component={ProjectSix} />
         <Route path='/contact' component={Contact} />
       </Switch>
       <Section />

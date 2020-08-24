@@ -3,7 +3,7 @@ import React from "react";
 const Section = () => {
   return (
     <div>
-      <section className='hero is-info is-large'>
+      <section className='hero is-dark is-bold is-large'>
         <div className='hero-body'>
           <div className='container'>
             <h1 className='title text-center'>Something Impressive</h1>

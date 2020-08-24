@@ -2,6 +2,11 @@
     padding-bottom: 3em;
 }
 
+.breadcrumb-container {
+    justify-content: center;
+    padding-top: 25px;
+}
+
 .welcome-text {
     font-size: 3em;
 }
@@ -14,10 +19,22 @@
     padding-bottom: 3em;
 }
 
+.skills-container {
+    background-color: rgb(244, 244, 244);
+}
+
 .card-container {
     display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
     grid-gap: 0.5em;
+    
+}
+
+.card{
+	height: max-content;
+}
+
+.projects-top {
     padding-bottom: 3em;
 }
 
