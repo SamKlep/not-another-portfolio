@@ -1,5 +1,17 @@
+
+
 .contact-container {
     padding-bottom: 3em;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+.footer a {
+    text-decoration: none;
+}
+.navbar-end Link {
+    text-decoration: none;
 }
 
 .breadcrumb-container {
@@ -13,6 +25,13 @@
 
 .about-image img {
     justify-content: center;
+}
+.about-image a {
+    text-decoration: none;
+}
+
+.about-main-image a {
+    text-decoration: none;
 }
 
 .is-active {
