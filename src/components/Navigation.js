@@ -9,6 +9,28 @@ const Navigation = () => {
     menu.classList.toggle("is-active");
   };
 
+  // const isActive = () => {
+  //   var activeMenu = document.querySelector(".active-list");
+
+  //   activeMenu.classList.toggle("is-active");
+  // };
+
+  setTimeout(function () {
+    // start a delay
+    var fade = document.getElementById("fade"); // get required element
+    fade.style.opacity = 1; // set opacity for the element to 1
+    var timerId = setInterval(function () {
+      // start interval loop
+      var opacity = fade.style.opacity; // get current opacity
+      if (opacity === 0) {
+        // check if its 0 yet
+        clearInterval(timerId); // if so, exit from interval loop
+      } else {
+        fade.style.opacity = opacity - 0.05; // else remove 0.05 from opacity
+      }
+    }, 100); // run every 0.1 second
+  }, 1500); // wait to run after 5 seconds
+
   return (
     <div>
       <section className='hero is-info is-large'>
@@ -65,8 +87,9 @@ const Navigation = () => {
 
         <div className='hero-body'>
           <div className='container has-text-centered'>
-            <p className='title'>Welcome</p>
-            <p className='subtitle'>to Samuel's Portfolio</p>
+            <p id='fade' className='title welcome-text'>
+              Welcome
+            </p>
           </div>
         </div>
 
@@ -77,13 +100,13 @@ const Navigation = () => {
                 <li className='is-active'>
                   <Link to='/about'>About</Link>
                 </li>
-                <li>
+                <li className='active-list'>
                   <Link to='/skills'>Skills</Link>
                 </li>
-                <li>
+                <li className='active-list'>
                   <Link to='/projects'>Projects</Link>
                 </li>
-                <li>
+                <li className='active-list'>
                   <Link to='/contact'>Contact</Link>
                 </li>
               </ul>

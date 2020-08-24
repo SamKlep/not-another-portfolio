@@ -20,7 +20,6 @@ const ContactPg = () => {
               className='input is-success'
               type='text'
               placeholder='Text input'
-              value=''
             />
             <span className='icon is-small is-left'>
               <i className='fas fa-user'></i>
@@ -39,7 +38,6 @@ const ContactPg = () => {
               className='input is-danger'
               type='email'
               placeholder='Email input'
-              value=''
             />
             <span className='icon is-small is-left'>
               <i className='fas fa-envelope'></i>
