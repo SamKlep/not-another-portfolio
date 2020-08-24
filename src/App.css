@@ -11,6 +11,10 @@
     font-size: 3em;
 }
 
+.about-image img {
+    justify-content: center;
+}
+
 .is-active {
     color: primary;
 }
