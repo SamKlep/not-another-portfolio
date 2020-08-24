@@ -16,7 +16,7 @@ const About = () => {
           </figure>
           <p>
             {" "}
-            I'm a <strong>Web Developer</strong> from{" "}
+            I'm a full-stack <strong>Web Developer</strong> from{" "}
             <strong>Houston, TX.</strong>
           </p>
           <Link to='/about'>

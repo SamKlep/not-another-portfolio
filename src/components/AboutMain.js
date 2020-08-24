@@ -6,7 +6,7 @@ const AboutMain = () => {
       <section className='section is-large about-image'>
         <div className='container has-text-centered '>
           <div className='container  '>
-            <h1 className='title'>About</h1>
+            <h1 className='title'></h1>
             <h2 className='subtitle'></h2>
 
             <figure className='image is-128x128 about-image is-inline-block'>
@@ -16,10 +16,14 @@ const AboutMain = () => {
               />
             </figure>
             <p>
-              I have a passion for all things tech and have been intrigued by it
-              all my life-- especially the blockchain and cryptocurrency. I
-              primarily work in Javascript, NodeJS and React but have recently
-              started learning React VR and Django.
+              I have experience working as a freelance developer and manage a
+              few websites for clients. I come from a design background and
+              utilize that skill in to my designs. I have a passion for all
+              things tech and have been intrigued by it all my life-- especially
+              the blockchain and cryptocurrency. I primarily work in Javascript,
+              NodeJS, Express, MongoDB and React; but have recently started
+              learning React VR, Django and IoT devices (Raspberry Pi, Arduino,
+              ESP8266).
             </p>
             <button class='button is-info  is-rounded'>My Resume</button>
           </div>
