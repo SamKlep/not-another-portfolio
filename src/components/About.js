@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -6,9 +7,7 @@ const About = () => {
       <section className='section is-large'>
         <div className='container'>
           <h1 className='title'>Greetings.</h1>
-          <h2 className='subtitle'>
-            I'm Samuel Klepper and I'm a Web Developer.
-          </h2>
+          <h2 className='subtitle'>I'm Samuel Klepper,</h2>
           <figure className='image is-128x128'>
             <img
               className='is-rounded'
@@ -16,20 +15,13 @@ const About = () => {
             />
           </figure>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            tempus sapien eget justo lacinia bibendum. Quisque non imperdiet
-            lectus. Pellentesque at tempor diam, a ultrices magna. Duis a purus
-            tincidunt, interdum lorem vel, convallis nisl. Proin mattis eu ante
-            quis sodales. Pellentesque non convallis quam, sed commodo odio.
-            Morbi mauris ex, ultrices sed metus sit amet, hendrerit eleifend
-            erat. Morbi elit dolor, iaculis nec aliquam nec, laoreet vel tortor.
-            Aenean et nulla urna. Quisque mollis justo arcu, vitae porta metus
-            tempus at. Phasellus gravida mi lorem, nec auctor diam vehicula id.
-            Donec rhoncus sapien nec erat consequat, sit amet condimentum orci
-            congue. Sed felis tortor, malesuada placerat facilisis vel, aliquam
-            sit amet nisl. Integer at pellentesque sapien. Etiam dictum augue
-            vel convallis viverra.
+            {" "}
+            I'm a <strong>Web Developer</strong> from{" "}
+            <strong>Houston, TX.</strong>
           </p>
+          <Link to='/about'>
+            <button class='button is-info is-rounded'>Learn more.</button>
+          </Link>
         </div>
       </section>
     </div>

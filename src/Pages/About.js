@@ -1,11 +1,12 @@
 import React from "react";
-import About from "../components/About";
+
 import AboutFiller from "../components/AboutFiller";
+import AboutMain from "../components/AboutMain";
 
 const AboutPg = () => {
   return (
     <div>
-      <About />
+      <AboutMain />
 
       <AboutFiller />
     </div>

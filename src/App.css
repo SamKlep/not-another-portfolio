@@ -5,3 +5,22 @@
 .welcome-text {
     font-size: 3em;
 }
+
+.is-active {
+    color: primary;
+}
+
+.skill-card {
+    padding-bottom: 3em;
+}
+
+.card-container {
+    display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-gap: 0.5em;
+    padding-bottom: 3em;
+}
+
+.project-container button {
+    float: right;
+}
