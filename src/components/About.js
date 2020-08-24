@@ -10,6 +10,12 @@ const About = () => {
             <h2 className='subtitle'>
               I'm Samuel Klepper and I'm a Web Developer.
             </h2>
+            <figure class='image is-128x128'>
+              <img
+                class='is-rounded'
+                src='/assets/images/sam_portfolio_face.png'
+              />
+            </figure>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               tempus sapien eget justo lacinia bibendum. Quisque non imperdiet
