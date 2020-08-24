@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className='footer'>
         <div className='content has-text-centered'>
           <p>
-            <strong>Built</strong> with ❤️ by
+            <strong>Built</strong> with 💜 by
             <a href='https://github.com/samklep'> Samuel Klepper</a>
           </p>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const toggleBurger = () => {
@@ -15,9 +16,9 @@ const Navigation = () => {
           <nav className='navbar'>
             <div className='container'>
               <div className='navbar-brand'>
-                <a className='navbar-item'>
+                <Link to='/' className='navbar-item'>
                   <h1 className='is-size-3'>SbK</h1>
-                </a>
+                </Link>
                 <span
                   className='navbar-burger burger'
                   data-target='navbarMenuHeroB'
@@ -30,13 +31,26 @@ const Navigation = () => {
               </div>
               <div id='navbarMenuHeroB' className='navbar-menu'>
                 <div className='navbar-end'>
-                  <a className='navbar-item is-active'>Home</a>
-                  <a className='navbar-item'>About</a>
-                  <a className='navbar-item'>Skills</a>
-                  <a className='navbar-item'>Projects</a>
-                  <a className='navbar-item'>Contact</a>
+                  <Link to='/' className='navbar-item is-active'>
+                    Home
+                  </Link>
+                  <Link to='/about' className='navbar-item'>
+                    About
+                  </Link>
+                  <Link to='/skills' className='navbar-item'>
+                    Skills
+                  </Link>
+                  <Link to='/projects' className='navbar-item'>
+                    Projects
+                  </Link>
+                  <Link to='/contact' className='navbar-item'>
+                    Contact
+                  </Link>
                   <span className='navbar-item'>
-                    <a className='button is-info is-inverted'>
+                    <a
+                      href='https://github.com/samklep'
+                      className='button is-info is-inverted'
+                    >
                       <span className='icon'>
                         <i className='fab fa-github'></i>
                       </span>
@@ -61,16 +75,16 @@ const Navigation = () => {
             <div className='container'>
               <ul>
                 <li className='is-active'>
-                  <a>About</a>
+                  <Link to='/about'>About</Link>
                 </li>
                 <li>
-                  <a>Skills</a>
+                  <Link to='/skills'>Skills</Link>
                 </li>
                 <li>
-                  <a>Projects</a>
+                  <Link to='/projects'>Projects</Link>
                 </li>
                 <li>
-                  <a>Contact</a>
+                  <Link to='/contact'>Contact</Link>
                 </li>
               </ul>
             </div>
