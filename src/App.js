@@ -12,6 +12,7 @@ import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
 import AboutPg from "./Pages/About";
 import ProjectsPg from "./Pages/Projects";
+import ProjectOne from "./Pages/ProjectOne";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/about' component={AboutPg} />
         <Route path='/skills' component={SkillsPg} />
         <Route path='/projects' component={ProjectsPg} />
+        <Route path='/projectone' component={ProjectOne} />
         <Route path='/contact' component={Contact} />
       </Switch>
       <Section />

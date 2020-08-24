@@ -39,7 +39,7 @@ export const ProjectsCards = () => {
               </p>
               <br />
 
-              <Link to='/project1'>
+              <Link to='/projectone'>
                 <button class='button is-info is-rounded'>Learn more.</button>
               </Link>
             </div>
