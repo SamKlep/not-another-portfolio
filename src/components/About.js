@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div>
-      <section className='section is-large about-main-image'>
+      <section className='section is-medium about-main-image'>
         <div className='container has-text-centered'>
           <h1 className='title'>Greetings.</h1>
           <h2 className='subtitle'>I'm Samuel Klepper,</h2>

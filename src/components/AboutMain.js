@@ -3,7 +3,7 @@ import React from "react";
 const AboutMain = () => {
   return (
     <div>
-      <section className='section is-large about-image'>
+      <section className='section is-medium about-image'>
         <div className='container has-text-centered '>
           <div className='container  '>
             <h1 className='title'></h1>

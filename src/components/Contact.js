@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <section className='section is-large'>
+      <section className='section is-medium'>
         <div className='container'>
           <h1 className='title'>Contact</h1>
           <h2 className='subtitle'>Drop me a line.</h2>

@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navigation = ({}) => {
+  const [active, setActive] = useState(false);
+
   const toggleBurger = () => {
     var burger = document.querySelector(".burger");
     var menu = document.querySelector(".navbar-menu");
@@ -10,9 +12,16 @@ const Navigation = ({}) => {
   };
 
   // const isActive = () => {
-  //   var activeMenu = document.querySelector(".active");
-
-  //   activeMenu.classList.toggle(".is-active");
+  //   document.getElementById("nav-toggle").addEventListener("click", toggleNav);
+  //   function toggleNav() {
+  //     var nav = document.getElementById("nav-menu");
+  //     var className = nav.getAttribute("className");
+  //     if (className == "nav-right nav-menu") {
+  //       nav.className = "nav-right nav-menu is-active";
+  //     } else {
+  //       nav.className = "nav-right nav-menu";
+  //     }
+  //   }
   // };
 
   setTimeout(function () {
@@ -33,7 +42,7 @@ const Navigation = ({}) => {
 
   return (
     <div>
-      <section className='hero is-info is-bold is-large'>
+      <section className='hero is-info is-bold is-medium'>
         <div className='hero-head'>
           <nav className='navbar'>
             <div className='container'>
@@ -51,11 +60,11 @@ const Navigation = ({}) => {
                   <span></span>
                 </span>
               </div>
-              <div id='navbarMenuHeroB' className='navbar-menu'>
+              <div id='navbarMenuHeroB' className=''>
                 <div className='navbar-end'>
                   <Link
                     to='/'
-                    className='navbar-item is-active'
+                    className='navbar-item navbar-menu is-active'
                     style={{ fontSize: "1.3em" }}
                   >
                     Home
@@ -114,19 +123,35 @@ const Navigation = ({}) => {
         </div>
 
         <div className='hero-foot'>
-          <nav className='tabs is-boxed is-fullwidth'>
+          <nav className='tabs is-boxed is-fullwidth nav-toggle'>
             <div className='container'>
               <ul>
-                <li className='is-active' style={{ fontSize: "1.5em" }}>
+                <li
+                  className='is-active nav-menu'
+                  style={{ fontSize: "1.5em" }}
+                  // onClick={isActive}
+                >
                   <Link to='/about'>About</Link>
                 </li>
-                <li className='' style={{ fontSize: "1.5em" }}>
+                <li
+                  className='nav-menu'
+                  style={{ fontSize: "1.5em" }}
+                  // onClick={isActive}
+                >
                   <Link to='/skills'>Skills</Link>
                 </li>
-                <li className='' style={{ fontSize: "1.5em" }}>
+                <li
+                  className='nav-menu'
+                  style={{ fontSize: "1.5em" }}
+                  // onClick={isActive}
+                >
                   <Link to='/projects'>Projects</Link>
                 </li>
-                <li className='' style={{ fontSize: "1.5em" }}>
+                <li
+                  className='nav-menu'
+                  style={{ fontSize: "1.5em" }}
+                  // onClick={isActive}
+                >
                   <Link to='/contact'>Contact</Link>
                 </li>
               </ul>

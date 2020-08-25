@@ -72,6 +72,11 @@
     color: green;
 }
 
+.contact-container {
+    width: 40%;
+    
+}
+
 .navbar-nav>.is-active>a {
     background-color: hotpink;
     color: rgb(151, 252, 0);
