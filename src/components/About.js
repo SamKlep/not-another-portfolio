@@ -4,6 +4,14 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div>
+      <section className='hero is-dark is-medium'>
+        <div className='hero-body'>
+          <div className='container'>
+            <h1 className='title'>Medium title</h1>
+            <h2 className='subtitle'>Medium subtitle</h2>
+          </div>
+        </div>
+      </section>
       <section className='section is-medium about-main-image'>
         <div className='container has-text-centered'>
           <h1 className='title'>Greetings.</h1>
@@ -19,7 +27,7 @@ const About = () => {
             <strong>Houston, TX.</strong>
           </p>
           <Link to='/about'>
-            <button class='button is-info is-rounded'>Learn more</button>
+            <button className='button is-info is-rounded'>Learn more</button>
           </Link>
         </div>
       </section>

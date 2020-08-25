@@ -21,7 +21,7 @@
 .logo-text {
     font-family: 'Rock Salt', cursive;
     font-size: 2.5em;
-    color: greenyellow;
+    color: black;
 }
 
 .footer a {
@@ -95,10 +95,7 @@
     border-radius: 25px;
 }
 
-.navbar-nav>.is-active>a {
-    background-color: hotpink;
-    color: rgb(151, 252, 0);
-}
+
 
 .card-container {
     display: grid;

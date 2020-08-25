@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Navigation = () => {
   const toggleBurger = () => {
@@ -9,19 +10,15 @@ export const Navigation = () => {
   };
   return (
     <div>
-      <nav class='navbar' role='navigation' aria-label='main navigation'>
-        <div class='navbar-brand'>
-          <a class='navbar-item' href='https://bulma.io'>
-            <img
-              src='https://bulma.io/images/bulma-logo.png'
-              width='112'
-              height='28'
-            />
-          </a>
+      <nav className='navbar' role='navigation' aria-label='main navigation'>
+        <div className='navbar-brand'>
+          <Link to='/' className='navbar-item'>
+            <p className=' logo-text'>SbK</p>
+          </Link>
 
           <a
             role='button'
-            class='navbar-burger burger'
+            className='navbar-burger burger'
             aria-label='menu'
             aria-expanded='false'
             data-target='navbarBasicExample'
@@ -33,34 +30,34 @@ export const Navigation = () => {
           </a>
         </div>
 
-        <div id='navbarBasicExample' class='navbar-menu'>
-          <div class='navbar-start'>
-            <a class='navbar-item'>Home</a>
+        <div id='navbarBasicExample' className='navbar-menu'>
+          <div className='navbar-start'>
+            <a className='navbar-item'>Home</a>
 
-            <a class='navbar-item'>Documentation</a>
+            <a className='navbar-item'>About</a>
 
-            <div class='navbar-item has-dropdown is-hoverable'>
-              <a class='navbar-link'>More</a>
+            <div className='navbar-item has-dropdown is-hoverable'>
+              <a className='navbar-link'>More</a>
 
-              <div class='navbar-dropdown'>
-                <a class='navbar-item'>About</a>
-                <a class='navbar-item'>Jobs</a>
-                <a class='navbar-item'>Contact</a>
-                <hr class='navbar-divider' />
-                <a class='navbar-item'>Report an issue</a>
+              <div className='navbar-dropdown'>
+                <a className='navbar-item'>About</a>
+                <a className='navbar-item'>Jobs</a>
+                <a className='navbar-item'>Contact</a>
+                <hr className='navbar-divider' />
+                <a className='navbar-item'>Report an issue</a>
               </div>
             </div>
           </div>
 
-          <div class='navbar-end'>
-            <div class='navbar-item'>
-              <div class='buttons'>
-                <a class='button is-primary'>
-                  <strong>Sign up</strong>
-                </a>
-                <a class='button is-light'>Log in</a>
-              </div>
-            </div>
+          <div className='navbar-end'>
+            <span className='navbar-item'>
+              <a href='https://github.com/samklep' className='button is-info'>
+                <span className='icon'>
+                  <i className='fab fa-github'></i>
+                </span>
+                <span>GitHub</span>
+              </a>
+            </span>
           </div>
         </div>
       </nav>

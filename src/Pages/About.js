@@ -6,9 +6,8 @@ import AboutMain from "../components/AboutMain";
 const AboutPg = () => {
   return (
     <div>
-      <AboutMain />
-
       <AboutFiller />
+      <AboutMain />
     </div>
   );
 };
