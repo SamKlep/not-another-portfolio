@@ -25,7 +25,7 @@ const AboutMain = () => {
               learning React VR, Django and IoT devices (Raspberry Pi, Arduino,
               ESP8266).
             </p>
-            <button class='button is-info  is-rounded'>My Resume</button>
+            <button className='button is-info  is-rounded'>My Resume</button>
           </div>
         </div>
       </section>

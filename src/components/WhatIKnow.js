@@ -1,6 +1,6 @@
 import React from "react";
 
-const SkillCard = () => {
+const WhatIKnow = () => {
   return (
     <div>
       <div className='container skill-card'>
@@ -176,4 +176,4 @@ const SkillCard = () => {
   );
 };
 
-export default SkillCard;
+export default WhatIKnow;

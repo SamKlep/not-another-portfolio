@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navigation = () => {
+const Navigation = ({}) => {
   const toggleBurger = () => {
     var burger = document.querySelector(".burger");
     var menu = document.querySelector(".navbar-menu");
@@ -10,9 +10,9 @@ const Navigation = () => {
   };
 
   // const isActive = () => {
-  //   var activeMenu = document.querySelector(".active-list");
+  //   var activeMenu = document.querySelector(".active");
 
-  //   activeMenu.classList.toggle("is-active");
+  //   activeMenu.classList.toggle(".is-active");
   // };
 
   setTimeout(function () {
@@ -33,13 +33,13 @@ const Navigation = () => {
 
   return (
     <div>
-      <section className='hero is-info is-large'>
+      <section className='hero is-info is-bold is-large'>
         <div className='hero-head'>
           <nav className='navbar'>
             <div className='container'>
               <div className='navbar-brand'>
                 <Link to='/' className='navbar-item'>
-                  <h1 className='is-size-3'>SbK</h1>
+                  <p className=' logo-text'>SbK</p>
                 </Link>
                 <span
                   className='navbar-burger burger'
@@ -53,19 +53,39 @@ const Navigation = () => {
               </div>
               <div id='navbarMenuHeroB' className='navbar-menu'>
                 <div className='navbar-end'>
-                  <Link to='/' className='navbar-item is-active'>
+                  <Link
+                    to='/'
+                    className='navbar-item is-active'
+                    style={{ fontSize: "1.3em" }}
+                  >
                     Home
                   </Link>
-                  <Link to='/about' className='navbar-item'>
+                  <Link
+                    to='/about'
+                    className='navbar-item'
+                    style={{ fontSize: "1.3em" }}
+                  >
                     About
                   </Link>
-                  <Link to='/skills' className='navbar-item'>
+                  <Link
+                    to='/skills'
+                    className='navbar-item'
+                    style={{ fontSize: "1.3em" }}
+                  >
                     Skills
                   </Link>
-                  <Link to='/projects' className='navbar-item'>
+                  <Link
+                    to='/projects'
+                    className='navbar-item'
+                    style={{ fontSize: "1.5em" }}
+                  >
                     Projects
                   </Link>
-                  <Link to='/contact' className='navbar-item'>
+                  <Link
+                    to='/contact'
+                    className='navbar-item'
+                    style={{ fontSize: "1.3em" }}
+                  >
                     Contact
                   </Link>
                   <span className='navbar-item'>
@@ -97,16 +117,16 @@ const Navigation = () => {
           <nav className='tabs is-boxed is-fullwidth'>
             <div className='container'>
               <ul>
-                <li className='is-active'>
+                <li className='is-active' style={{ fontSize: "1.5em" }}>
                   <Link to='/about'>About</Link>
                 </li>
-                <li className='active-list'>
+                <li className='' style={{ fontSize: "1.5em" }}>
                   <Link to='/skills'>Skills</Link>
                 </li>
-                <li className='active-list'>
+                <li className='' style={{ fontSize: "1.5em" }}>
                   <Link to='/projects'>Projects</Link>
                 </li>
-                <li className='active-list'>
+                <li className='' style={{ fontSize: "1.5em" }}>
                   <Link to='/contact'>Contact</Link>
                 </li>
               </ul>

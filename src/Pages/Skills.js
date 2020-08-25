@@ -1,12 +1,15 @@
 import React from "react";
 import Skills from "../components/Skills";
-import SkillCard from "../components/SkillCard";
+import WhatIKnow from "../components/WhatIKnow";
+import Tabs from "../components/Tabs";
 
 export const SkillsPg = () => {
   return (
     <div className='skills-container'>
       <Skills />
-      <SkillCard />
+      <Tabs />
+      <br />
+      <WhatIKnow />
     </div>
   );
 };

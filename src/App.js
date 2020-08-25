@@ -19,6 +19,8 @@ import ProjectFour from "./Pages/ProjectFour";
 import ProjectFive from "./Pages/ProjectFive";
 import ProjectSix from "./Pages/ProjectSix";
 
+import LearningPg from "./Pages/Learning";
+
 function App() {
   return (
     <Router>
@@ -27,6 +29,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={AboutPg} />
         <Route path='/skills' component={SkillsPg} />
+        <Route path='/learning' component={LearningPg} />
         <Route path='/projects' component={ProjectsPg} />
         <Route path='/projectone' component={ProjectOne} />
         <Route path='/projecttwo' component={ProjectTwo} />

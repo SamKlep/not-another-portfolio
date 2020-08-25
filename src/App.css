@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Questrial&family=Rock+Salt&display=swap');
 
 .contact-container {
     padding-bottom: 3em;
 }
 
+* {
+    font-family: 'Questrial', sans-serif;
+}
+
 .navbar a {
     text-decoration: none;
 }
+
+.navbar-menu Link {
+    font-size: 2em;
+}
+
+.logo-text {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2.5em;
+    color: greenyellow;
+}
+
 .footer a {
     text-decoration: none;
 }
@@ -21,6 +38,7 @@
 
 .welcome-text {
     font-size: 3em;
+    font-family:  'Alfa Slab One', cursive;
 }
 
 .about-image img {
@@ -28,6 +46,10 @@
 }
 .about-image a {
     text-decoration: none;
+}
+
+.call-to-action {
+    background-color: white;
 }
 
 .about-main-image a {
@@ -42,8 +64,17 @@
     padding-bottom: 3em;
 }
 
-.skills-container {
-    background-color: rgb(244, 244, 244);
+.nav-link {
+    color: green;
+}
+
+.nav-item>a:hover {
+    color: green;
+}
+
+.navbar-nav>.is-active>a {
+    background-color: hotpink;
+    color: rgb(151, 252, 0);
 }
 
 .card-container {
@@ -52,6 +83,8 @@
     grid-gap: 0.5em;
     
 }
+
+
 
 .card{
 	height: max-content;

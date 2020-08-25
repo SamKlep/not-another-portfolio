@@ -9,11 +9,13 @@ const ProjectOne = () => {
         <section class='hero is-medium is-primary is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Project One</h1>
-              <h2 class='subtitle'>Sub-title</h2>
+              <h1 class='title'>Crypto News Network</h1>
+              <h2 class='subtitle'>
+                Your Source for Up to The Minute Crypto Currency News
+              </h2>
 
               <figure class='image is-5by3'>
-                <img src='https://bulma.io/images/placeholders/256x256.png ' />
+                <img src='/assets/images/crypto-news-screenshot.png ' />
               </figure>
               <section class='section'>
                 <div class='container'>
