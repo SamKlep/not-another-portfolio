@@ -9,12 +9,12 @@ const ProjectTwo = () => {
         <section class='hero is-medium is-primary is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Project Two</h1>
-              <h2 class='subtitle'>Sub-subtitle</h2>
+              <h1 class='title'>Find a House</h1>
+              <h2 class='subtitle'>A Real Estate Listings App</h2>
 
               <img
                 className='project-image'
-                src='/assets/images/laptop2.jpeg '
+                src='/assets/images/laptop-2.jpg '
               />
               <section class='section'>
                 <div class='container'>

@@ -13,10 +13,10 @@ const ProjectOne = () => {
               <h2 class='subtitle'>
                 Your Source for Up to The Minute Crypto Currency News
               </h2>
-
+              <br />
               <img
                 className='project-image'
-                src='/assets/images/laptop1.jpeg '
+                src='/assets/images/laptop-1.jpg '
               />
 
               <section class='section'>

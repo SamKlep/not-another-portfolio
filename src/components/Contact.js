@@ -3,6 +3,14 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
+      <section className='hero is-dark is-bold'>
+        <div className='hero-body'>
+          <div className='container'>
+            <h1 className='title has-text-centered is-size-1'>Contact</h1>
+            <h2 className='subtitle'></h2>
+          </div>
+        </div>
+      </section>
       <section className='section is-medium'>
         <div className='container'>
           <h1 className='title'>Contact</h1>
