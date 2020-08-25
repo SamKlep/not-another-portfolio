@@ -8,12 +8,11 @@ const About = () => {
         <div className='container has-text-centered'>
           <h1 className='title'>Greetings.</h1>
           <h2 className='subtitle'>I'm Samuel Klepper,</h2>
-          <figure className='image is-128x128 is-inline-block'>
-            <img
-              className='is-rounded'
-              src='/assets/images/sam_portfolio_face.png'
-            />
-          </figure>
+
+          <img
+            className='image-self'
+            src='/assets/images/sam_portfolio_face.png'
+          />
           <p>
             {" "}
             I'm a full-stack <strong>Web Developer</strong> from{" "}

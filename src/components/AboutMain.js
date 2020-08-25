@@ -9,12 +9,12 @@ const AboutMain = () => {
             <h1 className='title'></h1>
             <h2 className='subtitle'></h2>
 
-            <figure className='image is-128x128 about-image is-inline-block'>
-              <img
-                className='is-rounded'
-                src='/assets/images/sam_portfolio_face.png'
-              />
-            </figure>
+            <img
+              className='image-self'
+              src='/assets/images/sam_portfolio_face.png'
+            />
+            <br />
+            <br />
             <p>
               I have experience working as a freelance developer and manage a
               few websites for clients. I come from a design background and

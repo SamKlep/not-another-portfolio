@@ -12,9 +12,10 @@ const ProjectTwo = () => {
               <h1 class='title'>Project Two</h1>
               <h2 class='subtitle'>Sub-subtitle</h2>
 
-              <figure class='image is-5by3'>
-                <img src='https://bulma.io/images/placeholders/256x256.png ' />
-              </figure>
+              <img
+                className='project-image'
+                src='/assets/images/laptop2.jpeg '
+              />
               <section class='section'>
                 <div class='container'>
                   <h2 class='subtitle'>

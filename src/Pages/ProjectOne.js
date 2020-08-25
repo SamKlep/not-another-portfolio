@@ -14,9 +14,11 @@ const ProjectOne = () => {
                 Your Source for Up to The Minute Crypto Currency News
               </h2>
 
-              <figure class='image is-5by3'>
-                <img src='/assets/images/crypto-news-screenshot.png ' />
-              </figure>
+              <img
+                className='project-image'
+                src='/assets/images/laptop1.jpeg '
+              />
+
               <section class='section'>
                 <div class='container'>
                   <h2 class='subtitle'>

@@ -72,9 +72,27 @@
     color: green;
 }
 
+.image-self {
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    justify-content: center;
+}
+
 .contact-container {
-    width: 40%;
+    max-width: 400px;
     
+  padding: 20px;
+}
+
+.contact-form {
+    background-color: ivory;
+    border-radius: 25px;
 }
 
 .navbar-nav>.is-active>a {
