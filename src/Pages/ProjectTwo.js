@@ -6,7 +6,7 @@ const ProjectTwo = () => {
     <div>
       <ProjectBreadcrumb />
       <div className=''>
-        <section class='hero is-medium is-primary is-bold'>
+        <section class='hero is-medium is-light is-bold'>
           <div class='hero-body'>
             <div class='container'>
               <h1 class='title'>Find a House</h1>
