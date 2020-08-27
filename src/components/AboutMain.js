@@ -27,7 +27,15 @@ const AboutMain = () => {
                 (Raspberry Pi, Arduino, ESP8266).
               </p>
               <br />
-              <button className='button is-info  is-rounded'>My Resume</button>
+              <a
+                href='/assets/images/S.KlepperResume.pdf'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <button className='button is-info  is-rounded'>
+                  My Resume
+                </button>
+              </a>
             </div>
           </div>
         </div>

@@ -13,7 +13,12 @@ const ProjectOne = () => {
               <h2 class='subtitle'>
                 Your Source for Up to The Minute Crypto Currency News
               </h2>
-              <br />
+
+              <a href='https://evening-meadow-70637.herokuapp.com/'>
+                <p className='is-size-5'>
+                  https://evening-meadow-70637.herokuapp.com/
+                </p>
+              </a>
               <img
                 className='project-image'
                 src='/assets/images/laptop-1.jpg '
@@ -22,10 +27,9 @@ const ProjectOne = () => {
               <section class='section'>
                 <div class='container'>
                   <h2 class='subtitle'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Made with Python, Django, HTML and CSS. Utilizes data from
+                    the CryptoCompare API and displays the latest information of
+                    the top performing coins and news articles.
                   </h2>
                 </div>
               </section>

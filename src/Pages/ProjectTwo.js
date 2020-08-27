@@ -11,7 +11,7 @@ const ProjectTwo = () => {
             <div class='container'>
               <h1 class='title'>Find a House</h1>
               <h2 class='subtitle'>A Real Estate Listings App</h2>
-
+              <br />
               <img
                 className='project-image'
                 src='/assets/images/laptop-2.jpg '
