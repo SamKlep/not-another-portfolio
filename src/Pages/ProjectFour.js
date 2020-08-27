@@ -9,12 +9,17 @@ const ProjectFour = () => {
         <section class='hero is-medium is-light is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Project Four</h1>
-              <h2 class='subtitle'>Sub-subtitle</h2>
+              <h1 class='title'>COVID-19 Tracker</h1>
+              <h2 class='subtitle'>Staying safe in uncertain times.</h2>
+              <a href='https://focused-bhaskara-a7850e.netlify.app/'>
+                <p className='is-size-5'>
+                  https://focused-bhaskara-a7850e.netlify.app/
+                </p>
+              </a>
 
               <img
                 className='project-image'
-                src='/assets/images/laptop4.jpeg '
+                src='/assets/images/laptop-4.jpg '
               />
               <section class='section'>
                 <div class='container'>
@@ -27,7 +32,6 @@ const ProjectFour = () => {
                   </h2>
                 </div>
               </section>
-
               <div class='tile is-ancestor'>
                 <div class='tile is-vertical is-8'>
                   <div class='tile'>
