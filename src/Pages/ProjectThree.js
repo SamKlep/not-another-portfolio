@@ -9,12 +9,16 @@ const ProjectThree = () => {
         <section class='hero is-medium is-light is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Project Three</h1>
-              <h2 class='subtitle'>sub-subtitle</h2>
-
+              <h1 class='title'>Contact Keeper</h1>
+              <h2 class='subtitle'>All your contacts in one place.</h2>
+              <a href='https://blooming-forest-66299.herokuapp.com/login'>
+                <p className='is-size-5'>
+                  https://blooming-forest-66299.herokuapp.com/login
+                </p>
+              </a>
               <img
                 className='project-image'
-                src='/assets/images/laptop3.jpeg '
+                src='/assets/images/laptop-3.jpg '
               />
               <section class='section'>
                 <div class='container'>

@@ -10,8 +10,10 @@ const ProjectTwo = () => {
           <div class='hero-body'>
             <div class='container'>
               <h1 class='title'>Find a House</h1>
-              <h2 class='subtitle'>A Real Estate Listings App</h2>
-              <br />
+              <h2 class='subtitle'>Property searching just got so easy.</h2>
+              <a href='https://findahouse.herokuapp.com/'>
+                <p className='is-size-5'>https://findahouse.herokuapp.com/</p>
+              </a>
               <img
                 className='project-image'
                 src='/assets/images/laptop-2.jpg '
