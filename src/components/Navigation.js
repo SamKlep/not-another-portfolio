@@ -78,6 +78,18 @@ export const Navigation = () => {
                 <span>GitHub</span>
               </a>
             </span>
+            <span className='navbar-item'>
+              <a href='mailto:samklepdev@gmail.com' className='button is-info'>
+                <span className='icon'>
+                  <span
+                    className='iconify'
+                    data-icon='mdi:gmail'
+                    data-inline='false'
+                  ></span>
+                </span>
+                <span>Gmail</span>
+              </a>
+            </span>
           </div>
         </div>
       </nav>
