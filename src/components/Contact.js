@@ -13,8 +13,7 @@ const Contact = () => {
       </section>
       <section className='section is-medium'>
         <div className='container'>
-          <h1 className='title'>Contact</h1>
-          <h2 className='subtitle'>Lets get in touch.</h2>
+          <h2 className='subtitle has-text-centered'>Lets get in touch.</h2>
           <p className='text-center'>
             <i class='fas fa-envelope'></i> :
             <a
@@ -53,6 +52,17 @@ const Contact = () => {
             >
               {" "}
               linkedin.com/in/samuel-klepper
+            </a>
+          </p>
+          <p className='text-center'>
+            <i class='fab fa-blogger'></i> :
+            <a
+              href='https://swampblogthing.netlify.app/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              {" "}
+              https://swampblogthing.netlify.app/
             </a>
           </p>
         </div>

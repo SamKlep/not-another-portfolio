@@ -30,7 +30,7 @@ const AboutMain = () => {
                 outdoors as much as possible. I enjoy gardening, bird-watching,
                 and feeding squirrels. I’m an avid science-fiction reader and a
                 long-time Spider-Man comic-book collector. In spare time, I like
-                to paint and take pictures of nature. I also have three lovely
+                to paint and play VR video games. I also have three lovely
                 felines and one loyal canine companion.
               </p>
               <br />

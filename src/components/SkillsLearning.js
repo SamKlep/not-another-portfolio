@@ -1,6 +1,6 @@
 import React from "react";
 
-const Skills = () => {
+const SkillsLearning = () => {
   return (
     <div>
       <section className='hero is-dark is-bold'>
@@ -13,10 +13,12 @@ const Skills = () => {
       </section>
       <section className='section is-medium skills-container'>
         <div className='container'>
-          <h2 className='subtitle has-text-centered'>Here's what I know.</h2>
+          <h2 className='subtitle has-text-centered'>
+            Here's what I'm currently learning.
+          </h2>
         </div>
       </section>
     </div>
   );
 };
-export default Skills;
+export default SkillsLearning;
