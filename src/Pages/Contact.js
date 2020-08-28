@@ -8,6 +8,7 @@ const ContactPg = () => {
       <Contact />
       <ContactForm />
       <br />
+      <br />
       <section class='hero is-medium is-warning is-bold'>
         <div class='hero-body'>
           <div class='container'></div>

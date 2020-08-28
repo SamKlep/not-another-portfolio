@@ -90,6 +90,21 @@ export const Navigation = () => {
                 <span>Gmail</span>
               </a>
             </span>
+            <span className='navbar-item'>
+              <a
+                href='/assets/images/S.KlepperResume.pdf'
+                className='button is-info'
+              >
+                <span className='icon'>
+                  <span
+                    className='iconify'
+                    data-icon='ant-design:paper-clip-outlined'
+                    data-inline='false'
+                  ></span>
+                </span>
+                <span>Resume</span>
+              </a>
+            </span>
           </div>
         </div>
       </nav>

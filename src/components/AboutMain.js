@@ -34,15 +34,6 @@ const AboutMain = () => {
                 felines and one loyal canine companion.
               </p>
               <br />
-              <a
-                href='/assets/images/S.KlepperResume.pdf'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <button className='button is-info  is-rounded'>
-                  My Resume
-                </button>
-              </a>
             </div>
           </div>
         </div>
