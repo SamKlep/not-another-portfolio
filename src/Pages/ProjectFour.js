@@ -22,15 +22,7 @@ const ProjectFour = () => {
                 src='/assets/images/laptop-4.jpg '
               />
               <section class='section'>
-                <div class='container'>
-                  <h1 class='title'></h1>
-                  <h2 class='subtitle'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </h2>
-                </div>
+                <div class='container'></div>
               </section>
               <div class='tile is-ancestor'>
                 <div class='tile is-vertical is-8'>

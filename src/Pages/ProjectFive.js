@@ -9,23 +9,17 @@ const ProjectFive = () => {
         <section class='hero is-medium is-light is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Project Five</h1>
-              <h2 class='subtitle'>Sub-subtitle</h2>
+              <h1 class='title'>Ultra Demolition</h1>
+              <h2 class='subtitle'>
+                A brochure site for a demolition company.
+              </h2>
 
               <img
                 className='project-image'
-                src='/assets/images/laptop5.jpeg '
+                src='/assets/images/laptop-5.jpg '
               />
               <section class='section'>
-                <div class='container'>
-                  <h1 class='title'></h1>
-                  <h2 class='subtitle'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </h2>
-                </div>
+                <div class='container'></div>
               </section>
 
               <div class='tile is-ancestor'>

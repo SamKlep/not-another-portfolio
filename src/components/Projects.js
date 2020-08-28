@@ -13,13 +13,10 @@ const Projects = () => {
       </section>
       <section className='section is-medium'>
         <div className='container'>
-          <h1 className='title'>Projects</h1>
-          <h2 className='subtitle'>Heres what I've built so far.</h2>
-          <p>
-            Though this will be an ever changing list of projects reflecting
-            what I know and what I am currently learning, here's the current
-            list of completed projects I have made.
-          </p>
+          <h1 className='title'></h1>
+          <h2 className='subtitle has-text-centered'>
+            Heres what I've built so far.
+          </h2>
         </div>
       </section>
     </div>

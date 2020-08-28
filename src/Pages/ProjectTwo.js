@@ -19,14 +19,7 @@ const ProjectTwo = () => {
                 src='/assets/images/laptop-2.jpg '
               />
               <section class='section'>
-                <div class='container'>
-                  <h2 class='subtitle'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </h2>
-                </div>
+                <div class='container'></div>
               </section>
 
               <div class='tile is-ancestor'>

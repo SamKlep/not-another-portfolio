@@ -26,11 +26,7 @@ const ProjectOne = () => {
 
               <section class='section'>
                 <div class='container'>
-                  <h2 class='subtitle'>
-                    Made with Python, Django, HTML and CSS. Utilizes data from
-                    the CryptoCompare API and displays the latest information of
-                    the top performing coins and news articles.
-                  </h2>
+                  <h2 class='subtitle'></h2>
                 </div>
               </section>
 
@@ -39,16 +35,22 @@ const ProjectOne = () => {
                   <div class='tile'>
                     <div class='tile is-parent is-vertical'>
                       <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
+                        <h5>
+                          <strong>Technologies</strong>
+                        </h5>{" "}
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
+                          With this project I ventured out of my comfort zone
+                          and learned how to make a full-stack application using
+                          Python and Django. It makes a call to the
+                          CryptoCompare API and displays the latest prices of
+                          popular coins as well as the latest news articles.
+                          Also using HTML and CSS as well.
                         </p>
                       </article>
                       <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
+                        <h5>
+                          <strong>Learned</strong>
+                        </h5>{" "}
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit. Quisque vehicula massa justo, vel aliquam lectus
@@ -59,7 +61,9 @@ const ProjectOne = () => {
                     </div>
                     <div class='tile is-parent'>
                       <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
+                        <h5>
+                          <strong>Workflow</strong>
+                        </h5>{" "}
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit. Quisque vehicula massa justo, vel aliquam lectus
@@ -71,7 +75,9 @@ const ProjectOne = () => {
                   </div>
                   <div class='tile is-parent'>
                     <article class='tile is-child box'>
-                      <h5>Title</h5>{" "}
+                      <h5>
+                        <strong>Different</strong>
+                      </h5>{" "}
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Quisque vehicula massa justo, vel aliquam lectus
@@ -83,7 +89,9 @@ const ProjectOne = () => {
                 </div>
                 <div class='tile is-parent'>
                   <article class='tile is-child box'>
-                    <h5>Title</h5>{" "}
+                    <h5>
+                      <strong>Challenges</strong>
+                    </h5>{" "}
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Quisque vehicula massa justo, vel aliquam lectus suscipit
