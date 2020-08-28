@@ -120,47 +120,6 @@ const WhatIKnow = () => {
             </article>
           </div>
         </div>
-
-        <div className='tile is-ancestor'>
-          <div className='tile is-parent'>
-            <article className='tile is-child box'>
-              <p className='title'>Twelve</p>
-              <p className='subtitle'>Subtitle</p>
-              <div className='content'>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  ornare magna eros, eu pellentesque tortor vestibulum ut.
-                </p>
-              </div>
-            </article>
-          </div>
-          <div className='tile is-parent is-6'>
-            <article className='tile is-child box'>
-              <p className='title'>Thirteen</p>
-              <p className='subtitle'>Subtitle</p>
-              <div className='content'>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  ornare magna eros, eu pellentesque tortor vestibulum ut.
-                  Maecenas non massa sem. Etiam finibus odio quis feugiat
-                  facilisis.
-                </p>
-              </div>
-            </article>
-          </div>
-          <div className='tile is-parent'>
-            <article className='tile is-child box'>
-              <p className='title'>Fourteen</p>
-              <p className='subtitle'>Subtitle</p>
-              <div className='content'>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  ornare magna eros, eu pellentesque tortor vestibulum ut.
-                </p>
-              </div>
-            </article>
-          </div>
-        </div>
       </div>
     </div>
   );
