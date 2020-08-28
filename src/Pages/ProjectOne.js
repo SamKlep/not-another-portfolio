@@ -41,34 +41,50 @@ const ProjectOne = () => {
                         <p>
                           With this project I ventured out of my comfort zone
                           and learned how to make a full-stack application using
-                          Python and Django. It makes a call to the
-                          CryptoCompare API and displays the latest prices of
-                          popular coins as well as the latest news articles.
-                          Also using HTML and CSS as well.
+                          <strong> Python</strong> and <strong>Django</strong>.
+                        </p>
+                        <p>
+                          It utilizes the <strong>CryptoCompare API</strong> and
+                          displays the latest prices of popular coins as well as
+                          the latest news articles. Also using{" "}
+                          <strong>HTML</strong> and <strong>CSS</strong> as
+                          well.
                         </p>
                       </article>
                       <article class='tile is-child box'>
                         <h5>
-                          <strong>Learned</strong>
+                          <strong>Workflow</strong>
                         </h5>{" "}
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
+                          Since I was wokring with a new technology, there were
+                          a lot of new concepts to me. I had never heard of a
+                          virtual environment, how to activate one or python
+                          dictionaries. But soon after completing the official
+                          Django tutorial from the website, I understood enough
+                          of the fundamentals to get up and going.
                         </p>
                       </article>
                     </div>
                     <div class='tile is-parent'>
                       <article class='tile is-child box'>
                         <h5>
-                          <strong>Workflow</strong>
+                          <strong>Learned</strong>
                         </h5>{" "}
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
+                          Since I primarily work in Javascript, I wanted to see
+                          what Django was all about. To say the least, there was
+                          a learning curve in which I had to spend many hours
+                          learning about the fundamentals of Python and creating
+                          a virtual environment. Since I was falimiar with NPM
+                          already, it was easy to adapt to PIP to install
+                          packages.
+                        </p>
+                        <p>
+                          The syntax was a bit new to me, so I became quite
+                          familiar with the console's error messages and Google.
+                          The file structure of the application was interesting
+                          too, how one would create numerous apps within the
+                          whole application itself.
                         </p>
                       </article>
                     </div>
