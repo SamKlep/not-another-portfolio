@@ -11,7 +11,7 @@ const ProjectOne = () => {
             <div className='container'>
               <h1 className='title'>Crypto News Network</h1>
               <h2 className='subtitle'>
-                Your Source for Up to The Minute Crypto Currency News
+                Your Source for Up to The Minute Crypto Currency Prices & News
               </h2>
 
               <a href='https://evening-meadow-70637.herokuapp.com/'>
@@ -26,112 +26,58 @@ const ProjectOne = () => {
 
               <section className='section'>
                 <div className='container'>
-                  <h2 className='subtitle'></h2>
+                  <h2 className='is-size-4'>
+                    This was a front-end focused project where I made use of the
+                    CryptoCompare API. It was the first time I ventured outside
+                    of JavaScript.
+                  </h2>
                 </div>
               </section>
 
-              <div className='tile is-ancestor'>
-                <div className='tile is-vertical is-8'>
-                  <div className='tile'>
-                    <div className='tile is-parent is-vertical'>
+              <div>
+                <div className='container skill-card'>
+                  <div className='tile is-ancestor'>
+                    <div className='tile is-parent'>
                       <article className='tile is-child box'>
-                        <h5>
-                          <strong>Technologies</strong>
-                        </h5>{" "}
-                        <p>
-                          With this project I ventured out of my comfort zone
-                          and learned how to make a front-end application using
-                          <strong> Python</strong> and <strong>Django</strong>.
-                        </p>
-                        <p>
-                          It utilizes the <strong>CryptoCompare API</strong> and
-                          displays the latest prices of popular coins as well as
-                          the latest news articles. Also using{" "}
-                          <strong>HTML</strong>, <strong>CSS</strong> and{" "}
-                          <strong>Bootstrap</strong> as well.
-                        </p>
-                      </article>
-                      <article className='tile is-child box'>
-                        <h5>
-                          <strong>Workflow</strong>
-                        </h5>{" "}
-                        <p>
-                          Since I was wokring with a new technology, there were
-                          a lot of new concepts to me. I had never heard of a
-                          virtual environment, how to activate one or python
-                          dictionaries. But soon after completing the official
-                          Django tutorial from the website, I understood enough
-                          of the fundamentals to get up and going.
-                        </p>
-                        <p>
-                          Having a general idea of the functionality I wanted, I
-                          just had to plan out the wireframe and translate it
-                          into code.
+                        <p className='title has-text-centered'>Tech Used</p>
+
+                        <p className='has-text-centered is-size-5'>
+                          Python, Django, HTML, CSS, Bootstrap, CryptoCompare
+                          API, Git & Heroku.
                         </p>
                       </article>
                     </div>
                     <div className='tile is-parent'>
-                      <article className='tile is-child box project-vcenter-text'>
-                        <h5>
-                          <strong>Learned</strong>
-                        </h5>{" "}
-                        <p className=''>
-                          Since I primarily work in Javascript, I wanted to see
-                          what Django was all about. To say the least, there was
-                          a learning curve in which I had to spend many hours
-                          learning about the fundamentals of Python and creating
-                          a virtual environment. Since I was falimiar with NPM
-                          already, it was easy to adapt to PIP to install
-                          packages.
-                          <br />
-                          <br />
-                          The syntax was a bit new to me, so I became quite
-                          familiar with the console's error messages and Google.
-                          The file structure of the application was interesting
-                          too, how one would create numerous apps within the
-                          whole application itself. There were more features out
-                          of the box that I thought were neat, like an admin
-                          backend that makes it easy to migrate data to the
-                          database, though I did not use on this project.
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Learned</p>
+                        <p className='has-text-centered is-size-5'>
+                          How to set up a virtual environment in Python and
+                          utilize PIP. Run a server and upload files to the
+                          backend.
+                        </p>
+                      </article>
+                    </div>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Challenges</p>
+                        <p className='has-text-centered is-size-5'>
+                          Since it was a new language to me, the syntax gave me
+                          some trouble but nothing that was not a Google search
+                          away. Deploying was a new process for Django that I
+                          eventually figured out.
+                        </p>
+                      </article>
+                    </div>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Future</p>
+                        <p className='has-text-centered is-size-5'>
+                          Eventually, I'd like to add a non-crytpo news section
+                          and spruce up the CSS.
                         </p>
                       </article>
                     </div>
                   </div>
-                  <div className='tile is-parent'>
-                    <article className='tile is-child box'>
-                      <h5>
-                        <strong>Different</strong>
-                      </h5>{" "}
-                      <p>
-                        If I could do anything different, I'd probably just
-                        expand upon the initial idea. Add more features such as
-                        regular non-crypto news section and probably more CSS
-                        styling.
-                      </p>
-                    </article>
-                  </div>
-                </div>
-                <div className='tile is-parent'>
-                  <article className='tile is-child box project-vcenter-text'>
-                    <h5>
-                      <strong>Challenges</strong>
-                    </h5>{" "}
-                    <p>
-                      Naturally, I faced some challenges along the way. Though
-                      some of the syntax reminded me of EJS, this was clearly
-                      not Javascript. Using the manage.py file to run the server
-                      and migrate data was something new to get used to. I
-                      learned pretty quickly that Python was very sensitive to
-                      spacing and even an extra one somewhere in the code could
-                      cause a compiling error.
-                    </p>
-                    <p>
-                      When it came time to deploy, that was another set of
-                      issues. Luckily, the whole experience gave me a lot of
-                      practice researching specific problems and I was able to
-                      get through the process successfully.
-                    </p>
-                  </article>
                 </div>
               </div>
             </div>
