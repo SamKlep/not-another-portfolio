@@ -12,7 +12,11 @@ const ProjectFour = () => {
             <div class='container'>
               <h1 className='title'>Project 4</h1>
               <h2 className='subtitle'>COVID-19 Tracker</h2>
-              <a href='https://focused-bhaskara-a7850e.netlify.app/'>
+              <a
+                href='https://focused-bhaskara-a7850e.netlify.app/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <p className='is-size-5'>
                   https://focused-bhaskara-a7850e.netlify.app/
                 </p>

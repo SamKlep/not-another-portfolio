@@ -12,7 +12,13 @@ const ProjectSix = () => {
             <div class='container'>
               <h1 className='title'>Project 6</h1>
               <h2 className='subtitle'>Sam's Blog</h2>
-
+              <a
+                href='https://swampblogthiing.netlify.app'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <p className='is-size-5'>https://swampblogthiing.netlify.app</p>
+              </a>
               <img
                 className='project-image'
                 src='/assets/images/laptop-62.jpg'

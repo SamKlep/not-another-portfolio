@@ -12,6 +12,13 @@ const ProjectFive = () => {
             <div class='container'>
               <h1 className='title'>Project 5</h1>
               <h2 className='subtitle'>Ultra Demolition</h2>
+              <a
+                href='https://ultra-demolition.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <p className='is-size-5'>https://ultra-demolition.com</p>
+              </a>
 
               <img
                 className='project-image'

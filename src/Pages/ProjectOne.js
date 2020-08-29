@@ -13,7 +13,11 @@ const ProjectOne = () => {
               <h1 className='title'>Project 1</h1>
               <h2 className='subtitle'>The Crypto News Network</h2>
 
-              <a href='https://evening-meadow-70637.herokuapp.com/'>
+              <a
+                href='https://evening-meadow-70637.herokuapp.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <p className='is-size-5'>
                   https://evening-meadow-70637.herokuapp.com/
                 </p>

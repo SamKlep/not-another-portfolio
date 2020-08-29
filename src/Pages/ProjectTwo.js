@@ -12,7 +12,11 @@ const ProjectTwo = () => {
             <div class='container'>
               <h1 className='title'>Project 2</h1>
               <h2 className='subtitle'>Find a House</h2>
-              <a href='https://findahouse.herokuapp.com/'>
+              <a
+                href='https://findahouse.herokuapp.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <p className='is-size-5'>https://findahouse.herokuapp.com/</p>
               </a>
               <img

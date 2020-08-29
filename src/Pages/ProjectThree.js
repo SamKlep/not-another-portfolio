@@ -12,7 +12,11 @@ const ProjectThree = () => {
             <div class='container'>
               <h1 className='title'>Project 3</h1>
               <h2 className='subtitle'>Contact Keeper</h2>
-              <a href='https://blooming-forest-66299.herokuapp.com/login'>
+              <a
+                href='https://blooming-forest-66299.herokuapp.com/login'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <p className='is-size-5'>
                   https://blooming-forest-66299.herokuapp.com/login
                 </p>
