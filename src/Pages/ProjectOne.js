@@ -88,7 +88,7 @@ const ProjectOne = () => {
                 <a href='/projectsix' className='pagination-previous'>
                   Previous
                 </a>
-                <a href='/projectwo' className='pagination-next'>
+                <a href='/projecttwo' className='pagination-next'>
                   Next page
                 </a>
               </nav>
