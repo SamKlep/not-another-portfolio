@@ -18,9 +18,7 @@
     font-size: 2em;
 }
 
-.about-content {
-   
-}
+
 
 .logo-text {
     font-family: 'Russo One', sans-serif;
@@ -103,7 +101,10 @@
     border-radius: 25px;
 }
 
+.project-vcenter-text {
+    padding: 3rem 1.5rem;
 
+}
 
 .card-container {
     display: grid;
