@@ -71,7 +71,12 @@ export const Navigation = () => {
 
           <div className='navbar-end'>
             <span className='navbar-item'>
-              <a href='https://github.com/samklep' className='button is-info'>
+              <a
+                href='https://github.com/samklep'
+                className='button is-info'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <span className='icon'>
                   <i className='fab fa-github'></i>
                 </span>
@@ -79,7 +84,12 @@ export const Navigation = () => {
               </a>
             </span>
             <span className='navbar-item'>
-              <a href='mailto:samklepdev@gmail.com' className='button is-info'>
+              <a
+                href='mailto:samklepdev@gmail.com'
+                className='button is-info'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <span className='icon'>
                   <span
                     className='iconify'
@@ -94,6 +104,8 @@ export const Navigation = () => {
               <a
                 href='/assets/images/S.KlepperResume.pdf'
                 className='button is-info'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <span className='icon'>
                   <span
