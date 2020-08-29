@@ -6,10 +6,7 @@ const About = () => {
     <div>
       <section className='hero is-dark is-bold'>
         <div className='hero-body'>
-          <div className='container'>
-            <h1 className='title has-text-centered'></h1>
-            <h2 className='subtitle'></h2>
-          </div>
+          <div className='container'></div>
         </div>
       </section>
       <section className='section is-medium about-main-image'>
@@ -20,6 +17,7 @@ const About = () => {
           <img
             className='image-self'
             src='/assets/images/sam_portfolio_face.png'
+            alt='sam'
           />
           <p className='is-size-5'>
             {" "}

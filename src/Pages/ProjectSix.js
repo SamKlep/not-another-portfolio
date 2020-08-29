@@ -14,7 +14,8 @@ const ProjectSix = () => {
 
               <img
                 className='project-image'
-                src='/assets/images/laptop-62.jpg '
+                src='/assets/images/laptop-62.jpg'
+                alt='project 6'
               />
               <section className='section'>
                 <div className='container'>

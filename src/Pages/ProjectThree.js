@@ -18,7 +18,8 @@ const ProjectThree = () => {
               </a>
               <img
                 className='project-image'
-                src='/assets/images/laptop-3.jpg '
+                src='/assets/images/laptop-3.jpg'
+                alt='project 3'
               />
               <section className='section'>
                 <div className='container'>

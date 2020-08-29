@@ -7,7 +7,6 @@ const Contact = () => {
         <div className='hero-body'>
           <div className='container'>
             <h1 className='title has-text-centered is-size-1'>Contact</h1>
-            <h2 className='subtitle'></h2>
           </div>
         </div>
       </section>
@@ -21,7 +20,7 @@ const Contact = () => {
             <a
               href='mailto:samklepdev@gmail.com'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               {" "}
               samklepdev@gmail.com
@@ -29,7 +28,7 @@ const Contact = () => {
           </p>
           <p className='text-center'>
             <i class='fas fa-phone'></i> :
-            <a href='tel:7133769541' target='_blank' rel='noreferrer'>
+            <a href='tel:7133769541' target='_blank' rel='noopener noreferrer'>
               {" "}
               713-376-9541
             </a>
@@ -39,7 +38,7 @@ const Contact = () => {
             <a
               href='https://www.github.com/samklep'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               {" "}
               github.com/samklep
@@ -50,7 +49,7 @@ const Contact = () => {
             <a
               href='https://www.linkedin.com/in/samuel-klepper-0435b5193/'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               {" "}
               linkedin.com/in/samuel-klepper

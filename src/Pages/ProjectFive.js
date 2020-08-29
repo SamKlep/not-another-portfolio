@@ -15,6 +15,7 @@ const ProjectFive = () => {
               <img
                 className='project-image'
                 src='/assets/images/laptop-5.jpg '
+                alt='project 5'
               />
               <section className='section'>
                 <div className='container'>

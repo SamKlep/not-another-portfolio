@@ -19,7 +19,8 @@ const ProjectOne = () => {
               </a>
               <img
                 className='project-image'
-                src='/assets/images/laptop-1.jpg '
+                src='/assets/images/laptop-1.jpg'
+                alt='project 1'
               />
 
               <section className='section'>

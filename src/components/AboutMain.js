@@ -7,12 +7,10 @@ const AboutMain = () => {
         <div className='container'>
           <div className='container has-text-centered '>
             <div className='container about-content '>
-              <h1 className='title'></h1>
-              <h2 className='subtitle'></h2>
-
               <img
                 className='image-self'
                 src='/assets/images/sam_portfolio_face.png'
+                alt='sam'
               />
               <br />
               <br />

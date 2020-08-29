@@ -16,18 +16,18 @@ export const Navigation = () => {
             <p className=' logo-text'>SbK</p>
           </Link>
 
-          <a
-            role='button'
+          <button
             className='navbar-burger burger'
             aria-label='menu'
             aria-expanded='false'
             data-target='navbarBasicExample'
             onClick={toggleBurger}
+            style={{ border: "none", borderRadius: "15px" }}
           >
             <span aria-hidden='true'></span>
             <span aria-hidden='true'></span>
             <span aria-hidden='true'></span>
-          </a>
+          </button>
         </div>
 
         <div id='navbarBasicExample' className='navbar-menu'>
