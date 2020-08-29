@@ -9,8 +9,8 @@ const ProjectThree = () => {
         <section class='hero is-medium is-light is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Contact Keeper</h1>
-              <h2 class='subtitle'>All your contacts in one place.</h2>
+              <h1 className='title'>Project 3</h1>
+              <h2 className='subtitle'>Contact Keeper</h2>
               <a href='https://blooming-forest-66299.herokuapp.com/login'>
                 <p className='is-size-5'>
                   https://blooming-forest-66299.herokuapp.com/login
@@ -40,8 +40,8 @@ const ProjectThree = () => {
                         <p className='title has-text-centered'>Tech Used</p>
 
                         <p className='has-text-centered is-size-5'>
-                          MongoDB, ExpressJS, ReactJS, NodeJS, JWT, Git &
-                          Bootstrap.
+                          MongoDB, ExpressJS, ReactJS, NodeJS, JWT, Git,
+                          Bootstrap & Heroku.
                         </p>
                       </article>
                     </div>

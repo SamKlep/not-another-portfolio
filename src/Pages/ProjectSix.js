@@ -9,76 +9,68 @@ const ProjectSix = () => {
         <section class='hero is-medium is-light is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Sam's Blog</h1>
-              <h2 class='subtitle'>
-                A personal blog to track my learning and progress.
-              </h2>
+              <h1 className='title'>Project 6</h1>
+              <h2 className='subtitle'>Sam's Blog</h2>
 
               <img
                 className='project-image'
                 src='/assets/images/laptop-62.jpg '
               />
-              <section class='section'>
-                <div class='container'></div>
+              <section className='section'>
+                <div className='container'>
+                  <h2 className='is-size-4'>
+                    This was my first time using GatsbyJS. I was intrigued by
+                    the static site generator aspect to it. It seemed like an
+                    easy process to get a brochure site up and running, and even
+                    easier to maintin the content via MDX.
+                  </h2>
+                </div>
               </section>
 
-              <div class='tile is-ancestor'>
-                <div class='tile is-vertical is-8'>
-                  <div class='tile'>
-                    <div class='tile is-parent is-vertical'>
-                      <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
-                        </p>
-                      </article>
-                      <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
+              <div>
+                <div className='container skill-card'>
+                  <div className='tile is-ancestor'>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Tech Used</p>
+
+                        <p className='has-text-centered is-size-5'>
+                          GatsbyJS, React, GraphQL, MDX, Bootstrap, Git &
+                          Netlify.
                         </p>
                       </article>
                     </div>
-                    <div class='tile is-parent'>
-                      <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Learned</p>
+                        <p className='has-text-centered is-size-5'>
+                          How to set up a Gatsby static site, maintain the
+                          content and how to use QraphQL.
+                        </p>
+                      </article>
+                    </div>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Challenges</p>
+                        <p className='has-text-centered is-size-5'>
+                          Since all of this was totally new, adding new pages
+                          with the cereatePages API was some-what alien. But
+                          once you get it going one can see the benefits
+                          immediately.
+                        </p>
+                      </article>
+                    </div>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Future</p>
+                        <p className='has-text-centered is-size-5'>
+                          I would learn how to make API calls with Gatsby and
+                          make the main image for NASA's image of the day a live
+                          image.
                         </p>
                       </article>
                     </div>
                   </div>
-                  <div class='tile is-parent'>
-                    <article class='tile is-child box'>
-                      <h5>Title</h5>{" "}
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque vehicula massa justo, vel aliquam lectus
-                        suscipit vitae. Maecenas eros elit, interdum ut dapibus
-                        nec, mattis vitae magna.
-                      </p>
-                    </article>
-                  </div>
-                </div>
-                <div class='tile is-parent'>
-                  <article class='tile is-child box'>
-                    <h5>Title</h5>{" "}
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Quisque vehicula massa justo, vel aliquam lectus suscipit
-                      vitae. Maecenas eros elit, interdum ut dapibus nec, mattis
-                      vitae magna.
-                    </p>
-                  </article>
                 </div>
               </div>
             </div>

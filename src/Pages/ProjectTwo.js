@@ -9,8 +9,8 @@ const ProjectTwo = () => {
         <section class='hero is-medium is-light is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Find a House</h1>
-              <h2 class='subtitle'>Property searching just got so easy.</h2>
+              <h1 className='title'>Project 2</h1>
+              <h2 className='subtitle'>Find a House</h2>
               <a href='https://findahouse.herokuapp.com/'>
                 <p className='is-size-5'>https://findahouse.herokuapp.com/</p>
               </a>

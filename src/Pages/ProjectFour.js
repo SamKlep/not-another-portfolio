@@ -9,8 +9,8 @@ const ProjectFour = () => {
         <section class='hero is-medium is-light is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>COVID-19 Tracker</h1>
-              <h2 class='subtitle'>Staying safe in uncertain times.</h2>
+              <h1 className='title'>Project 4</h1>
+              <h2 className='subtitle'>COVID-19 Tracker</h2>
               <a href='https://focused-bhaskara-a7850e.netlify.app/'>
                 <p className='is-size-5'>
                   https://focused-bhaskara-a7850e.netlify.app/
@@ -21,66 +21,57 @@ const ProjectFour = () => {
                 className='project-image'
                 src='/assets/images/laptop-4.jpg '
               />
-              <section class='section'>
-                <div class='container'></div>
-              </section>
-              <div class='tile is-ancestor'>
-                <div class='tile is-vertical is-8'>
-                  <div class='tile'>
-                    <div class='tile is-parent is-vertical'>
-                      <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
-                        </p>
-                      </article>
-                      <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
-                        </p>
-                      </article>
-                    </div>
-                    <div class='tile is-parent'>
-                      <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
-                        </p>
-                      </article>
-                    </div>
-                  </div>
-                  <div class='tile is-parent'>
-                    <article class='tile is-child box'>
-                      <h5>Title</h5>{" "}
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque vehicula massa justo, vel aliquam lectus
-                        suscipit vitae. Maecenas eros elit, interdum ut dapibus
-                        nec, mattis vitae magna.
-                      </p>
-                    </article>
-                  </div>
+              <section className='section'>
+                <div className='container'>
+                  <h2 className='is-size-4'>
+                    This front-end project was an exercise in API calling with
+                    React and trying out ChartJS. The user is able to choose a
+                    country from a dropdown menu and see the latest data on
+                    COVID-19 infections, deaths and recoveries.
+                  </h2>
                 </div>
-                <div class='tile is-parent'>
-                  <article class='tile is-child box'>
-                    <h5>Title</h5>{" "}
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Quisque vehicula massa justo, vel aliquam lectus suscipit
-                      vitae. Maecenas eros elit, interdum ut dapibus nec, mattis
-                      vitae magna.
-                    </p>
-                  </article>
+              </section>
+
+              <div>
+                <div className='container skill-card'>
+                  <div className='tile is-ancestor'>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Tech Used</p>
+
+                        <p className='has-text-centered is-size-5'>
+                          ReactJS, NodeJS, ChartJS, CSS, Git & Netlify.
+                        </p>
+                      </article>
+                    </div>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Learned</p>
+                        <p className='has-text-centered is-size-5'>
+                          How to make API calls with React Hooks and display
+                          data with ChartJS.
+                        </p>
+                      </article>
+                    </div>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Challenges</p>
+                        <p className='has-text-centered is-size-5'>
+                          Learning the React/JSX way of looping through API
+                          results, since it is not JavaSCript entirely.
+                        </p>
+                      </article>
+                    </div>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Future</p>
+                        <p className='has-text-centered is-size-5'>
+                          I would more content to the site itself like a news
+                          section with related articles to COVID-19.
+                        </p>
+                      </article>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

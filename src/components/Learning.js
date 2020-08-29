@@ -112,6 +112,18 @@ export const Learning = () => {
                 </p>
               </article>
             </div>
+            <div className='tile is-parent'>
+              <article className='tile is-child box'>
+                <p className='title has-text-centered'>GraphQL</p>
+                <p className='has-text-centered is-size-1'>
+                  <span
+                    className='iconify'
+                    data-icon='cib:graphql'
+                    data-inline='false'
+                  ></span>
+                </p>
+              </article>
+            </div>
           </div>
         </div>
       </div>

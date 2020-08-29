@@ -9,10 +9,8 @@ const ProjectOne = () => {
         <section className='hero is-medium is-light is-bold'>
           <div className='hero-body'>
             <div className='container'>
-              <h1 className='title'>Crypto News Network</h1>
-              <h2 className='subtitle'>
-                Your Source for Up to The Minute Crypto Currency Prices & News
-              </h2>
+              <h1 className='title'>Project 1</h1>
+              <h2 className='subtitle'>The Crypto News Network</h2>
 
               <a href='https://evening-meadow-70637.herokuapp.com/'>
                 <p className='is-size-5'>

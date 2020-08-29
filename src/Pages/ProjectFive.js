@@ -9,76 +9,69 @@ const ProjectFive = () => {
         <section class='hero is-medium is-light is-bold'>
           <div class='hero-body'>
             <div class='container'>
-              <h1 class='title'>Ultra Demolition</h1>
-              <h2 class='subtitle'>
-                A brochure site for a demolition company.
-              </h2>
+              <h1 className='title'>Project 5</h1>
+              <h2 className='subtitle'>Ultra Demolition</h2>
 
               <img
                 className='project-image'
                 src='/assets/images/laptop-5.jpg '
               />
-              <section class='section'>
-                <div class='container'></div>
+              <section className='section'>
+                <div className='container'>
+                  <h2 className='is-size-4'>
+                    This was my first site made for a client. It was a new
+                    experience working with someone elses design and input on
+                    the process. I had to use their content and resize many
+                    images.
+                  </h2>
+                </div>
               </section>
 
-              <div class='tile is-ancestor'>
-                <div class='tile is-vertical is-8'>
-                  <div class='tile'>
-                    <div class='tile is-parent is-vertical'>
-                      <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
-                        </p>
-                      </article>
-                      <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
+              <div>
+                <div className='container skill-card'>
+                  <div className='tile is-ancestor'>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Tech Used</p>
+
+                        <p className='has-text-centered is-size-5'>
+                          HTML, CSS, Git & WordPress.
                         </p>
                       </article>
                     </div>
-                    <div class='tile is-parent'>
-                      <article class='tile is-child box'>
-                        <h5>Title</h5>{" "}
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Quisque vehicula massa justo, vel aliquam lectus
-                          suscipit vitae. Maecenas eros elit, interdum ut
-                          dapibus nec, mattis vitae magna.
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Learned</p>
+                        <p className='has-text-centered is-size-5'>
+                          How to make images responsive and retain their clarity
+                          after re-sizing. How to set a proper time-frame for
+                          you to complete the work within the parameters given,
+                          and properly pay yourself.
+                        </p>
+                      </article>
+                    </div>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Challenges</p>
+                        <p className='has-text-centered is-size-5'>
+                          The resizing of the images alone was a grand task that
+                          I was not 100% familiar with. I found a good site that
+                          would give you multiple sizes once you uploaded the
+                          image.
+                        </p>
+                      </article>
+                    </div>
+                    <div className='tile is-parent'>
+                      <article className='tile is-child box'>
+                        <p className='title has-text-centered'>Future</p>
+                        <p className='has-text-centered is-size-5'>
+                          I would get more into the customizing side of
+                          WordPress since their out of the box product does not
+                          offer that much customizablity from the CSS side.
                         </p>
                       </article>
                     </div>
                   </div>
-                  <div class='tile is-parent'>
-                    <article class='tile is-child box'>
-                      <h5>Title</h5>{" "}
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque vehicula massa justo, vel aliquam lectus
-                        suscipit vitae. Maecenas eros elit, interdum ut dapibus
-                        nec, mattis vitae magna.
-                      </p>
-                    </article>
-                  </div>
-                </div>
-                <div class='tile is-parent'>
-                  <article class='tile is-child box'>
-                    <h5>Title</h5>{" "}
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Quisque vehicula massa justo, vel aliquam lectus suscipit
-                      vitae. Maecenas eros elit, interdum ut dapibus nec, mattis
-                      vitae magna.
-                    </p>
-                  </article>
                 </div>
               </div>
             </div>
