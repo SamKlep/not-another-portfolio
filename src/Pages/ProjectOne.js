@@ -27,7 +27,8 @@ const ProjectOne = () => {
                   <h2 className='is-size-4'>
                     This was a front-end focused project where I made use of the
                     CryptoCompare API. It was the first time I ventured outside
-                    of JavaScript.
+                    of JavaScript and was happy I did. The user can see the
+                    latest prices and news in the cryptocurrency world.
                   </h2>
                 </div>
               </section>
@@ -78,6 +79,18 @@ const ProjectOne = () => {
                   </div>
                 </div>
               </div>
+              <nav
+                className='pagination'
+                role='navigation'
+                aria-label='pagination'
+              >
+                <a href='/projectsix' className='pagination-previous'>
+                  Previous
+                </a>
+                <a href='/projecttwo' className='pagination-next'>
+                  Next page
+                </a>
+              </nav>
             </div>
           </div>
         </section>

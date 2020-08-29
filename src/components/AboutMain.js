@@ -17,13 +17,14 @@ const AboutMain = () => {
               <br />
               <br />
               <p className='is-size-5'>
-                I have experience working as a freelance web developer and
-                manage a few websites for clients. I come from a graphic design
-                & illustration background—- so naturally I incorporate those
+                I have experience working as a{" "}
+                <strong>freelance web developer</strong> and manage a few
+                websites for clients. I come from a graphic design &
+                illustration background—- so naturally I incorporate those
                 skills in to my web development process. I have a passion for
                 all things tech and have been intrigued by it all my life. I
-                primarily work with the MERN stack but have lately been trying
-                out new languages and frameworks.
+                primarily work with the <strong>MERN</strong> stack but have
+                lately been trying out new languages and frameworks.
                 <br />
                 <br />
                 Aside from being a web developer, I like to enjoy the great

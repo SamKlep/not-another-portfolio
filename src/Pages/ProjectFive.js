@@ -74,6 +74,18 @@ const ProjectFive = () => {
                   </div>
                 </div>
               </div>
+              <nav
+                className='pagination'
+                role='navigation'
+                aria-label='pagination'
+              >
+                <a href='/projectfour' className='pagination-previous'>
+                  Previous
+                </a>
+                <a href='/projectsix' className='pagination-next'>
+                  Next page
+                </a>
+              </nav>
             </div>
           </div>
         </section>

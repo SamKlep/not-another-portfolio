@@ -23,9 +23,11 @@ const ProjectTwo = () => {
                   <h2 className='is-size-4'>
                     This was another Django exercise, but a full-stack web
                     application this time with a fully functioning admin panel.
-                    The admin would be able to perform all CRUD operations from
-                    the backend to be able to manage listings, photos and
-                    realtors.
+                    The admin would be able to perform all superuser tasks and
+                    all CRUD operations from the backend to be able to manage
+                    listings, photos and realtors. Ideally a user could make an
+                    account, browse listings, interact with the realtors and the
+                    admin would maintain the whole two way flow of data.
                   </h2>
                 </div>
               </section>
@@ -79,6 +81,18 @@ const ProjectTwo = () => {
                   </div>
                 </div>
               </div>
+              <nav
+                className='pagination'
+                role='navigation'
+                aria-label='pagination'
+              >
+                <a href='/projectone' className='pagination-previous'>
+                  Previous
+                </a>
+                <a href='/projecthree' className='pagination-next'>
+                  Next page
+                </a>
+              </nav>
             </div>
           </div>
         </section>
