@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectBreadcrumb from "../components/ProjectBreadcrumb";
+import { Link } from "react-router-dom";
 
 const ProjectOne = () => {
   return (
@@ -85,12 +86,12 @@ const ProjectOne = () => {
                 role='navigation'
                 aria-label='pagination'
               >
-                <a href='/projectsix' className='pagination-previous'>
+                <Link to='/projectsix' className='pagination-previous'>
                   Previous
-                </a>
-                <a href='/projecttwo' className='pagination-next'>
+                </Link>
+                <Link to='/projecttwo' className='pagination-next'>
                   Next page
-                </a>
+                </Link>
               </nav>
             </div>
           </div>
