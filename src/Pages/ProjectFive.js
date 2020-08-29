@@ -80,12 +80,12 @@ const ProjectFive = () => {
                 role='navigation'
                 aria-label='pagination'
               >
-                <a href='/projectfour' className='pagination-previous'>
+                <Link to='/projectfour' className='pagination-previous'>
                   Previous
-                </a>
-                <a href='/projectsix' className='pagination-next'>
+                </Link>
+                <Link to='/projectsix' className='pagination-next'>
                   Next page
-                </a>
+                </Link>
               </nav>
             </div>
           </div>
