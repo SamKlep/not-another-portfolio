@@ -56,7 +56,7 @@ export const Navigation = () => {
             <Link
               to='/projects'
               className='navbar-item'
-              style={{ fontSize: "1.5em" }}
+              style={{ fontSize: "1.3em" }}
             >
               Projects
             </Link>
