@@ -102,7 +102,7 @@ export const Navigation = () => {
             </span>
             <span className='navbar-item'>
               <a
-                href='/assets/images/S.KlepperResume.pdf'
+                href='/assets/images/sbkResume.pdf'
                 className='button is-info'
                 target='_blank'
                 rel='noopener noreferrer'
